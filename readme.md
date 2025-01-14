@@ -153,6 +153,10 @@ The dashboard visualizes the health of servers based on the infinity stone metri
 
 ---
 
+## 🌟 **Future Plans**
+
+Thanos is Yet to find the mind stone, since we are trying to integrate ML algorithms to forward load smartly.
+
 ## 🤝 **Contributing**
 
 Contributions are welcome! Here's how you can get involved:
