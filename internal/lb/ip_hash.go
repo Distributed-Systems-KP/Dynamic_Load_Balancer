@@ -9,6 +9,7 @@ import (
 )
 
 // IPHash implements basic IP-based hashing to pick a consistent server.
+// requires special pod orchestration
 type IPHash struct {
 	mu            sync.Mutex
 	ServerManager *server.Manager
