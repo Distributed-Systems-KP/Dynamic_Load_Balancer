@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 )
-
+// Config can be modified in the future implementation
 // Config holds the entire LB configuration
 type Config struct {
 	LBPort              int
