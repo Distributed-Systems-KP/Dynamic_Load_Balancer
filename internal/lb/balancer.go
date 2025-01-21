@@ -9,6 +9,7 @@ import (
 )
 
 // Balancer orchestrates the load-balancing process.
+// Needs a master K8s node 
 type Balancer struct {
 	mu               sync.Mutex
 	ServerManager    *server.Manager
