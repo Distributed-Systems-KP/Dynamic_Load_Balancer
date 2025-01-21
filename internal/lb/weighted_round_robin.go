@@ -10,6 +10,7 @@ import (
 )
 
 // WeightedRoundRobin implements weighted RR to pick a server based on CurrentWeight.
+// Adding to the main cluster in k8s
 type WeightedRoundRobin struct {
 	mu            sync.Mutex
 	ServerManager *server.Manager
