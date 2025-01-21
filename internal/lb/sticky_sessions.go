@@ -9,6 +9,7 @@ import (
 
 // StickySessions maintains a mapping of sessionID -> *Server
 // This is a simple in-memory approach.
+// Needs to be taken into a DB cluster
 type StickySessions struct {
 	mu            sync.Mutex
 	sessionToSrv  map[string]*server.Server
