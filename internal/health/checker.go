@@ -8,6 +8,7 @@ import (
 )
 
 // Checker periodically pulls metrics from servers
+// Requires higher optimization on pods 
 // and recalculates each server's health score & weight.
 type Checker struct {
 	Interval      time.Duration
